@@ -15,7 +15,7 @@ const nunitoSans = Nunito_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://jap.netlify.app"),
+  metadataBase: new URL("https://sunny-narwhal-70d995.netlify.app"),
   title: {
     template: "%s | Jaya Abadi Poultry",
     default: "Jaya Abadi Poultry - Supplier DOC Ayam, Bibit Unggas, Telur & Daging Frozen Berkualitas",

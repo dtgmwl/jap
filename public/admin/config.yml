@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: dtgmwl/jap.git
+  repo: dtgmwl/jap
   branch: main
 
 media_folder: public/images/uploads

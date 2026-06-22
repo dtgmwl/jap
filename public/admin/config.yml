@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: your-username/berkat-unggas-farm
+  repo: dtgmwl/jap.git
   branch: main
 
 media_folder: public/images/uploads

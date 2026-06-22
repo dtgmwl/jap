@@ -1,0 +1,27 @@
+{
+  "id": "vaksin-nd-ib",
+  "name": "Vaksin ND+IB (Newcastle Disease)",
+  "slug": "vaksin-nd-ib",
+  "priceMin": 45000,
+  "priceMax": 65000,
+  "moq": 5,
+  "stock": "out_of_stock",
+  "category": "lainnya",
+  "description": "Vaksin ND+IB untuk pencegahan penyakit Newcastle Disease dan Infectious Bronchitis pada unggas.",
+  "specifications": {
+    "age": "4 Hari ke Atas",
+    "mortalityRate": "-",
+    "vaccination": "ND+IB (Live Vaccine)",
+    "feedType": "-"
+  },
+  "media": [
+    {
+      "type": "image",
+      "url": "/images/products/placeholder-1.svg"
+    },
+    {
+      "type": "image",
+      "url": "/images/products/placeholder-2.svg"
+    }
+  ]
+}

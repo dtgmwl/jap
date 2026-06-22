@@ -1,0 +1,27 @@
+{
+  "id": "ayam-indukan-petelur",
+  "name": "Ayam Indukan Petelur Siap Produksi",
+  "slug": "ayam-indukan-petelur",
+  "priceMin": 75000,
+  "priceMax": 95000,
+  "moq": 10,
+  "stock": "available",
+  "category": "ayam",
+  "description": "Ayam indukan petelur siap produksi, sudah divaksin lengkap dan dalam kondisi prima. Cocok untuk peternak skala kecil hingga menengah.",
+  "specifications": {
+    "age": "4-5 Bulan (Siap Produksi)",
+    "mortalityRate": "Estimasi < 1%",
+    "vaccination": "Vaksin ND+IB + Fowl Pox",
+    "feedType": "Pur Ayam Layer"
+  },
+  "media": [
+    {
+      "type": "image",
+      "url": "/images/products/placeholder-1.svg"
+    },
+    {
+      "type": "image",
+      "url": "/images/products/placeholder-2.svg"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "hero": {
+    "badge": "Sejak 2018 — Mitra Peternak Indonesia",
+    "title": "Supplier DOC Ayam &",
+    "titleHighlight": "Produk Unggas Berkualitas",
+    "description": "Mitra terpercaya peternak Indonesia sejak 2018. Menyediakan bibit unggas, telur, karkas, dan daging frozen premium dengan jaminan kualitas, harga transparan, dan pengiriman ke seluruh Pulau Jawa.",
+    "ctaPrimary": {
+      "label": "Lihat Produk",
+      "href": "/produk"
+    },
+    "ctaSecondary": {
+      "label": "Hubungi Kami",
+      "href": "/kontak"
+    }
+  },
+  "values": [
+    {
+      "title": "Kualitas Terjamin",
+      "description": "Vaksinasi lengkap, bibit sehat, dan daya tahan tubuh optimal."
+    },
+    {
+      "title": "Pengiriman Aman & Bergaransi",
+      "description": "Logistik khusus unggas dengan jaminan DOC tetap prima sampai tujuan."
+    },
+    {
+      "title": "Harga Transparan & Kompetitif",
+      "description": "Harga tertera jelas tanpa biaya tersembunyi, cocok untuk semua skala peternakan."
+    }
+  ],
+  "featuredProductsTitle": "Produk Unggulan",
+  "featuredProductsDescription": "Produk dan bibit unggas terbaik untuk peternakan Anda, tersedia dalam berbagai kategori dengan jaminan kualitas.",
+  "ctaSection": {
+    "title": "Siap Memulai Peternakan Unggas?",
+    "description": "Konsultasikan kebutuhan bibit Anda bersama tim kami. Gratis!",
+    "buttonLabel": "Hubungi Kami Sekarang",
+    "buttonHref": "/kontak"
+  }
+}

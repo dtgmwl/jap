@@ -1,0 +1,27 @@
+{
+  "id": "doc-itik-pedaging",
+  "name": "DOC Itik Pedaging (Peking)",
+  "slug": "doc-itik-pedaging",
+  "priceMin": 9500,
+  "priceMax": 12000,
+  "moq": 50,
+  "stock": "available",
+  "category": "itik",
+  "description": "Bibit Itik Pedaging Peking siap potong dengan bobot maksimal dan daging berkualitas super.",
+  "specifications": {
+    "age": "1-3 Hari (Box)",
+    "mortalityRate": "Estimasi < 4%",
+    "vaccination": "Vaksin Duck Cholera",
+    "feedType": "Pur Itik Starter 511"
+  },
+  "media": [
+    {
+      "type": "image",
+      "url": "/images/products/placeholder-1.svg"
+    },
+    {
+      "type": "image",
+      "url": "/images/products/placeholder-2.svg"
+    }
+  ]
+}

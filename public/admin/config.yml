@@ -1,0 +1,150 @@
+backend:
+  name: github
+  repo: your-username/berkat-unggas-farm
+  branch: main
+
+media_folder: public/images/uploads
+public_folder: /images/uploads
+
+collections:
+  - name: produk
+    label: Produk
+    label_singular: Produk
+    folder: data/products
+    format: json
+    extension: json
+    identifier_field: id
+    create: true
+    slug: '{{id}}'
+    summary: '{{name}} — {{priceMin}} IDR'
+    editor:
+      preview: false
+    fields:
+      - { label: ID, name: id, widget: string, hint: 'Unique identifier (e.g. doc-ayam-kampung-super)' }
+      - { label: Nama Produk, name: name, widget: string }
+      - { label: Slug, name: slug, widget: string }
+      - { label: Harga Minimal, name: priceMin, widget: number, min: 0 }
+      - { label: Harga Maksimal, name: priceMax, widget: number, min: 0 }
+      - { label: Minimal Order, name: moq, widget: number, min: 1 }
+      - label: Stok
+        name: stock
+        widget: select
+        options:
+          - { label: Tersedia, value: available }
+          - { label: Terbatas, value: limited }
+          - { label: Habis, value: out_of_stock }
+      - label: Kategori
+        name: category
+        widget: select
+        options:
+          - { label: Ayam, value: ayam }
+          - { label: Itik, value: itik }
+          - { label: Angsa, value: angsa }
+          - { label: Entok, value: entok }
+          - { label: Lainnya, value: lainnya }
+      - { label: Deskripsi, name: description, widget: text }
+      - label: Spesifikasi
+        name: specifications
+        widget: object
+        fields:
+          - { label: Umur, name: age, widget: string }
+          - { label: Mortalitas, name: mortalityRate, widget: string }
+          - { label: Vaksinasi, name: vaccination, widget: string }
+          - { label: Pakan, name: feedType, widget: string }
+      - label: Media
+        name: media
+        widget: list
+        fields:
+          - label: Tipe
+            name: type
+            widget: select
+            options:
+              - { label: Gambar, value: image }
+              - { label: Video, value: video }
+          - { label: URL, name: url, widget: string }
+          - { label: Thumbnail (untuk video), name: thumbnail, widget: image, required: false }
+
+  - name: blog
+    label: Blog
+    label_singular: Artikel
+    folder: data/blog
+    format: json
+    extension: json
+    identifier_field: slug
+    create: true
+    slug: '{{slug}}'
+    summary: '{{title}} — {{publishedAt}}'
+    editor:
+      preview: false
+    fields:
+      - { label: Judul, name: title, widget: string }
+      - { label: Slug, name: slug, widget: string }
+      - { label: Ringkasan, name: summary, widget: text }
+      - { label: Konten, name: content, widget: text }
+      - { label: Tanggal Publikasi, name: publishedAt, widget: string }
+      - { label: Penulis, name: author, widget: string }
+      - { label: Gambar Sampul, name: image, widget: image }
+      - { label: Tags, name: tags, widget: list, field: { label: Tag, name: tag, widget: string } }
+
+  - name: pengaturan
+    label: Pengaturan
+    files:
+      - label: Info Perusahaan
+        name: company
+        file: data/company.json
+        format: json
+        fields:
+          - { label: Nama, name: name, widget: string }
+          - { label: Telepon, name: phone, widget: string }
+          - { label: Alamat, name: address, widget: text }
+          - { label: URL Google Maps Embed, name: mapsEmbedUrl, widget: string }
+          - { label: Jam Operasional, name: operationalHours, widget: string }
+          - label: Statistik
+            name: stats
+            widget: list
+            fields:
+              - { label: Nilai, name: value, widget: number }
+              - { label: Akhiran, name: suffix, widget: string, required: false }
+              - { label: Awalan, name: prefix, widget: string, required: false }
+              - { label: Label, name: label, widget: string }
+      - label: Halaman Depan
+        name: homepage
+        file: data/homepage.json
+        format: json
+        fields:
+          - label: Hero
+            name: hero
+            widget: object
+            fields:
+              - { label: Badge, name: badge, widget: string }
+              - { label: Judul, name: title, widget: string }
+              - { label: Judul Sorotan, name: titleHighlight, widget: string }
+              - { label: Deskripsi, name: description, widget: text }
+              - label: Tombol Primer
+                name: ctaPrimary
+                widget: object
+                fields:
+                  - { label: Label, name: label, widget: string }
+                  - { label: Tautan, name: href, widget: string }
+              - label: Tombol Sekunder
+                name: ctaSecondary
+                widget: object
+                fields:
+                  - { label: Label, name: label, widget: string }
+                  - { label: Tautan, name: href, widget: string }
+          - label: Nilai-Nilai
+            name: values
+            widget: list
+            fields:
+              - { label: Judul, name: title, widget: string }
+              - { label: Deskripsi, name: description, widget: text }
+          - { label: Judul Produk Unggulan, name: featuredProductsTitle, widget: string }
+          - { label: Deskripsi Produk Unggulan, name: featuredProductsDescription, widget: text }
+          - label: CTA
+            name: ctaSection
+            widget: object
+            fields:
+              - { label: Judul, name: title, widget: string }
+              - { label: Deskripsi, name: description, widget: text }
+              - { label: Label Tombol, name: buttonLabel, widget: string }
+              - { label: Tautan Tombol, name: buttonHref, widget: string }

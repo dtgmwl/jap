@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jaya Abadi Poultry
+
+Poultry farm lead generation website built with Next.js, statically generated for fast delivery, and powered by Decap CMS for content management.
+
+## Tech Stack
+
+- **Framework:** Next.js 16 (App Router)
+- **Language:** TypeScript (strict)
+- **Styling:** Tailwind CSS v4
+- **Icons:** lucide-react
+- **CMS:** Decap CMS (Git-based)
+- **Deployment:** Netlify
+
+## Features
+
+- 100% static generation (SSG) with ISR
+- Product catalog with 15+ items across 5 categories (Ayam, Itik, Angsa, Entok, Lainnya)
+- Product gallery with video/image slider support
+- Blog with 3 articles
+- WhatsApp integration for lead generation
+- Scroll-reveal animations and counter animations
+- Mobile-first responsive design
+- Decap CMS for content editing (products, blog, company info, homepage)
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+├── data/                    # Content files (editable via Decap CMS)
+│   ├── products/            # Products (1 file per product)
+│   ├── blog/                # Blog articles (1 file per article)
+│   ├── company.json         # Company info
+│   └── homepage.json        # Homepage content
+├── public/
+│   ├── admin/               # Decap CMS entry
+│   │   ├── index.html
+│   │   └── config.yml
+│   └── images/              # Static images
+├── src/
+│   ├── app/                 # Next.js App Router pages
+│   │   ├── (public)/        # Public route group
+│   │   └── api/             # API routes (revalidation)
+│   ├── components/          # React components
+│   ├── lib/                 # Utilities & data reader
+│   └── types/               # TypeScript interfaces
+└── next.config.ts           # Next.js configuration
+```
 
-## Learn More
+## Decap CMS
 
-To learn more about Next.js, take a look at the following resources:
+Content is managed through `/admin/`:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Collection | Data File | Editable Fields |
+|------------|-----------|----------------|
+| Produk | `data/products/*.json` | Name, price, stock, category, specs, media |
+| Blog | `data/blog/*.json` | Title, content, tags, author |
+| Company | `data/company.json` | Phone, address, stats, maps |
+| Homepage | `data/homepage.json` | Hero text, values, CTA |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Local Development
 
-## Deploy on Vercel
+For local CMS preview, change backend to `test-repo` in `public/admin/config.yml`:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```yaml
+backend:
+  name: test-repo
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Don't commit this change.** Revert to `github` before pushing.
+
+### Production
+
+1. Push to GitHub
+2. Deploy to Netlify
+3. Register GitHub OAuth App (callback: `https://SITE.netlify.app/.netlify/functions/auth`)
+4. Set up Authentication Provider in Netlify
+5. Update `repo` in `config.yml` to `username/repo-name`
+6. Access `https://SITE.netlify.app/admin/`
+
+## Build
+
+```bash
+npm run build
+```
+
+All pages are statically generated with ISR (1-hour revalidation). To trigger manual revalidation, POST to `/api/revalidate` with `{ secret: env.REVALIDATION_SECRET }`.
+
+## License
+
+MIT

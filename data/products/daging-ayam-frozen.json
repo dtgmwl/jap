@@ -1,0 +1,27 @@
+{
+  "id": "daging-ayam-frozen",
+  "name": "Daging Ayam Frozen Premium",
+  "slug": "daging-ayam-frozen",
+  "priceMin": 38000,
+  "priceMax": 45000,
+  "moq": 5,
+  "stock": "available",
+  "category": "ayam",
+  "description": "Daging ayam frozen premium, diproses dengan standar higienis dan langsung dibekukan untuk menjaga kesegaran. Kemasan 1 kg.",
+  "specifications": {
+    "age": "Frozen (Tahan 6 Bulan)",
+    "mortalityRate": "-",
+    "vaccination": "Vaksin Lengkap",
+    "feedType": "-"
+  },
+  "media": [
+    {
+      "type": "image",
+      "url": "/images/products/placeholder-1.svg"
+    },
+    {
+      "type": "image",
+      "url": "/images/products/placeholder-2.svg"
+    }
+  ]
+}

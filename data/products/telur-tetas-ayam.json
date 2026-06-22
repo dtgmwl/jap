@@ -1,0 +1,27 @@
+{
+  "id": "telur-tetas-ayam",
+  "name": "Telur Tetas Ayam Kampung",
+  "slug": "telur-tetas-ayam",
+  "priceMin": 3500,
+  "priceMax": 5000,
+  "moq": 50,
+  "stock": "available",
+  "category": "ayam",
+  "description": "Telur tetas Ayam Kampung Super fertil dengan daya tetas tinggi. Cocok untuk peternak yang memiliki mesin penetas sendiri.",
+  "specifications": {
+    "age": "0-3 Hari (Pasca Panen)",
+    "mortalityRate": "Daya Tetas > 80%",
+    "vaccination": "Induk Sudah Vaksin",
+    "feedType": "-"
+  },
+  "media": [
+    {
+      "type": "image",
+      "url": "/images/products/placeholder-1.svg"
+    },
+    {
+      "type": "image",
+      "url": "/images/products/placeholder-2.svg"
+    }
+  ]
+}

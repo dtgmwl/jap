@@ -1,0 +1,27 @@
+{
+  "id": "telur-konsumsi",
+  "name": "Telur Ayam Kampung Konsumsi",
+  "slug": "telur-konsumsi",
+  "priceMin": 25000,
+  "priceMax": 30000,
+  "moq": 10,
+  "stock": "available",
+  "category": "lainnya",
+  "description": "Telur ayam kampung segar untuk konsumsi. Kaya nutrisi, kuning telur lebih besar, dan rasa lebih gurih.",
+  "specifications": {
+    "age": "0-7 Hari",
+    "mortalityRate": "-",
+    "vaccination": "-",
+    "feedType": "-"
+  },
+  "media": [
+    {
+      "type": "image",
+      "url": "/images/products/placeholder-1.svg"
+    },
+    {
+      "type": "image",
+      "url": "/images/products/placeholder-2.svg"
+    }
+  ]
+}

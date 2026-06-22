@@ -1,0 +1,27 @@
+{
+  "id": "karkas-ayam-broiler",
+  "name": "Karkas Ayam Broiler Segar",
+  "slug": "karkas-ayam-broiler",
+  "priceMin": 35000,
+  "priceMax": 42000,
+  "moq": 10,
+  "stock": "available",
+  "category": "ayam",
+  "description": "Karkas ayam broiler segar, bersih, dan sudah diproses secara higienis. Berat rata-rata 0,9-1,2 kg per ekor.",
+  "specifications": {
+    "age": "Potong Segar (H-0)",
+    "mortalityRate": "-",
+    "vaccination": "Vaksin Lengkap",
+    "feedType": "-"
+  },
+  "media": [
+    {
+      "type": "image",
+      "url": "/images/products/placeholder-1.svg"
+    },
+    {
+      "type": "image",
+      "url": "/images/products/placeholder-2.svg"
+    }
+  ]
+}

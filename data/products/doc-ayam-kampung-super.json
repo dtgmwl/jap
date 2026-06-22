@@ -1,0 +1,28 @@
+{
+  "id": "doc-ayam-kampung-super",
+  "name": "DOC Ayam Kampung Super (Japer)",
+  "slug": "doc-ayam-kampung-super",
+  "priceMin": 6800,
+  "priceMax": 8500,
+  "moq": 100,
+  "stock": "available",
+  "category": "ayam",
+  "description": "Bibit Ayam Kampung Super (Japer) berkualitas tinggi dengan pertumbuhan cepat dan daya tahan tubuh kuat terhadap penyakit.",
+  "specifications": {
+    "age": "1-2 Hari (Box)",
+    "mortalityRate": "Estimasi < 3%",
+    "vaccination": "Sudah Vaksin Marek's & ND HB1",
+    "feedType": "BR-1 / Pur Ayam Starter"
+  },
+  "media": [
+    {
+      "type": "video",
+      "url": "/videos/products/doc-ayam-kampung.mp4",
+      "thumbnail": "/images/products/placeholder-1.svg"
+    },
+    {
+      "type": "image",
+      "url": "/images/products/placeholder-2.svg"
+    }
+  ]
+}

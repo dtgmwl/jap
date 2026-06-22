@@ -1,0 +1,27 @@
+{
+  "id": "doc-angsa",
+  "name": "DOC Angsa (Chinese Goose)",
+  "slug": "doc-angsa",
+  "priceMin": 25000,
+  "priceMax": 35000,
+  "moq": 20,
+  "stock": "available",
+  "category": "angsa",
+  "description": "Bibit Angsa Chinese Goose berkualitas, pertumbuhan cepat, cocok untuk bisnis daging angsa premium.",
+  "specifications": {
+    "age": "1-3 Hari (Box)",
+    "mortalityRate": "Estimasi < 5%",
+    "vaccination": "Vaksin Newcastle Disease",
+    "feedType": "Pur Unggas Starter"
+  },
+  "media": [
+    {
+      "type": "image",
+      "url": "/images/products/placeholder-1.svg"
+    },
+    {
+      "type": "image",
+      "url": "/images/products/placeholder-2.svg"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "pakan-ayam-starter",
+  "name": "Pakan Ayam Starter BR-1",
+  "slug": "pakan-ayam-starter",
+  "priceMin": 250000,
+  "priceMax": 270000,
+  "moq": 10,
+  "stock": "available",
+  "category": "lainnya",
+  "description": "Pakan ayam starter BR-1 berkualitas tinggi untuk DOC usia 0-4 minggu. Tersedia dalam kemasan 50 kg.",
+  "specifications": {
+    "age": "0-4 Minggu",
+    "mortalityRate": "-",
+    "vaccination": "-",
+    "feedType": "BR-1 / Pur Starter"
+  },
+  "media": [
+    {
+      "type": "image",
+      "url": "/images/products/placeholder-1.svg"
+    },
+    {
+      "type": "image",
+      "url": "/images/products/placeholder-2.svg"
+    }
+  ]
+}

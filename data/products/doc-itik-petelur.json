@@ -1,0 +1,27 @@
+{
+  "id": "doc-itik-petelur",
+  "name": "DOC Itik Petelur (Khaki Campbell)",
+  "slug": "doc-itik-petelur",
+  "priceMin": 11000,
+  "priceMax": 14500,
+  "moq": 50,
+  "stock": "limited",
+  "category": "itik",
+  "description": "Bibit Itik Petelur Khaki Campbell unggul dengan produktivitas telur tinggi hingga 280 butir/tahun.",
+  "specifications": {
+    "age": "1-2 Hari (Box)",
+    "mortalityRate": "Estimasi < 3%",
+    "vaccination": "Vaksin Duck Enteritis",
+    "feedType": "Pur Itik Layer 512"
+  },
+  "media": [
+    {
+      "type": "image",
+      "url": "/images/products/placeholder-1.svg"
+    },
+    {
+      "type": "image",
+      "url": "/images/products/placeholder-2.svg"
+    }
+  ]
+}

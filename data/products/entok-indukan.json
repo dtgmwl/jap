@@ -1,0 +1,27 @@
+{
+  "id": "entok-indukan",
+  "name": "Entok Indukan Siap Produksi",
+  "slug": "entok-indukan",
+  "priceMin": 85000,
+  "priceMax": 120000,
+  "moq": 5,
+  "stock": "limited",
+  "category": "entok",
+  "description": "Entok indukan siap produksi, sehat dan sudah divaksin. Cocok untuk peternak yang ingin memulai budidaya entok sendiri.",
+  "specifications": {
+    "age": "5-6 Bulan (Siap Produksi)",
+    "mortalityRate": "Estimasi < 2%",
+    "vaccination": "Vaksin Lengkap",
+    "feedType": "Pur Entok / Konsentrat"
+  },
+  "media": [
+    {
+      "type": "image",
+      "url": "/images/products/placeholder-1.svg"
+    },
+    {
+      "type": "image",
+      "url": "/images/products/placeholder-2.svg"
+    }
+  ]
+}

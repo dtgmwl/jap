@@ -1,0 +1,27 @@
+{
+  "id": "doc-ayam-broiler",
+  "name": "DOC Ayam Broiler (Cobb)",
+  "slug": "doc-ayam-broiler",
+  "priceMin": 5500,
+  "priceMax": 7500,
+  "moq": 200,
+  "stock": "available",
+  "category": "ayam",
+  "description": "DOC Ayam Broiler Cobb unggulan dengan konversi pakan efisien dan pertumbuhan optimal dalam waktu singkat.",
+  "specifications": {
+    "age": "1 Hari (Box)",
+    "mortalityRate": "Estimasi < 2%",
+    "vaccination": "Vaksin ND Lasota + IBD",
+    "feedType": "BR-1 / Pur Broiler Starter"
+  },
+  "media": [
+    {
+      "type": "image",
+      "url": "/images/products/placeholder-1.svg"
+    },
+    {
+      "type": "image",
+      "url": "/images/products/placeholder-2.svg"
+    }
+  ]
+}

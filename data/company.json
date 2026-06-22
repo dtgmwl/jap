@@ -2,7 +2,7 @@
   "name": "Jaya Abadi Poultry",
   "phone": "6283891707227",
   "address": "Jl. Jendral Sudirman, Danasri Kidul, Kec. Nusawungu, Kabupaten Cilacap, Jawa Tengah 53283",
-  "mapsEmbedUrl": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d293.9092901682453!2d109.32788460703148!3d-7.6447806418899695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1782133053287!5m2!1sid!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"",
+  "mapsEmbedUrl": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d293.9092901682453!2d109.32788460703148!3d-7.6447806418899695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1782133053287!5m2!1sid!2sid",
   "operationalHours": "Senin - Sabtu (08:00 - 17:00 WIB)",
   "stats": [
     {
@@ -12,9 +12,9 @@
       "label": "Berdiri & Berpengalaman"
     },
     {
-      "value": 100,
+      "value": 1000,
       "suffix": "+",
-      "label": "Kapasitas Produksi (Ekor/Bulan)"
+      "label": "Kapasitas Produksi (/Bulan)"
     },
     {
       "value": 100,
